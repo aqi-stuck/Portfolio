@@ -1,0 +1,99 @@
+Create a modern, responsive portfolio website for an AI student with the following content:
+
+**PERSONAL DETAILS:**
+- Name: Syed Aqdas Munir
+- Title: AI Undergraduate & Aspiring AI Solutions Engineer
+- Email: aqis20338@gmail.com
+- Phone: 03115777062
+- Location: Chakwal District, Pakistan
+- LinkedIn: https://www.linkedin.com/in/syed-aqdas-munir-7291803127
+- Tagline: "Building AI solutions with a marketing edge"
+
+**HERO SECTION:**
+- Main headline: "AI Student | Future AI Solutions Engineer"
+- Sub-headline: "Second year BS Artificial Intelligence student at PAF-IAST"
+- Personal statement: "I'm a second year AI undergrad with a focused self-driven path toward becoming an AI Solutions Engineer. I bring real experience in product and social media marketing, helping grow digital engagement and shape go-to-market strategies for early-stage project development. This background gives me a unique edge in building technical products that actually resonate with users."
+
+**ABOUT SECTION:**
+- Content: Combine the summary and add: "Currently pursuing BS Artificial Intelligence at Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology (expected graduation 2028). My unique combination of technical AI skills and marketing experience allows me to bridge the gap between complex technology and user adoption. And I use Arch by the way."
+
+**PROJECTS SECTION:** (Create cards for each)
+1. Celestial Bodies Pathfinding Visualization
+   - Description: Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path algorithm.
+   - Tech: Python, Algorithms, Visualization
+
+2. Collatz-Lyapunov: Discovering the Hidden Gradient in Chaos
+   - Description: Bridging Discrete Dynamical Systems and Continuous Optimization by training a Neural Network to find a Neural Lyapunov Surface for the Collatz Conjecture.
+   - Tech: Neural Networks, PyTorch/TensorFlow, Mathematical Modeling
+
+3. Predictive Analysis System using Linear Regression
+   - Description: Predicts future outcomes using past data (currently predicts Pakistan's future GDP). Can be adapted for other datasets.
+   - Tech: Python, Scikit-learn, Linear Regression, Data Analysis
+
+4. TICTACTOE with RayLib
+   - Description: Fully graphical Tic-Tac-Toe game built with C++ and Raylib, featuring mouse controls and modern interface.
+   - Tech: C++, Raylib, Game Development
+
+5. VADER-based Sentiment Analysis with Intensifiers and Negators
+   - Description: Sentiment analyzer using VADER from NLTK with custom intensifier and negation handling for real-world language.
+   - Tech: Python, NLTK, NLP, VADER
+
+**EXPERIENCE SECTION:**
+1. Social Media Strategist at Ride Karo (12/2024-01/2025)
+   - Description: Managed digital engagement and marketing strategies
+
+2. Affiliate Marketer at Amazon (05/2020-05/2024 - Remote)
+   - Description: Created and implemented strategies for affiliate sales. Analyzed marketing data to identify trends and develop insights.
+
+**EDUCATION SECTION:**
+1. Bachelor's in Artificial Intelligence - PAF-IAST (2024-2028)
+2. High School - Fazaia Inter College (2020-2024)
+3. Mission School Dalwal (2011-2018)
+
+**SKILLS & TECHNOLOGIES:** (Organize in categories)
+- AI/ML: Neural Networks, Transformers, BERT, Supervised/Unsupervised Learning, Predictive Analytics
+- Programming: Python, C++, JavaScript
+- Tools: Git, GitHub, Kubernetes, Scikit-learn, NLTK, Raylib
+- Cloud: Oracle Cloud Infrastructure
+- Marketing: Social Media Strategy, Affiliate Marketing, Data Analysis
+- Languages: English (Proficient), Punjabi (Advanced), Japanese (Beginner), Urdu (Native)
+
+**CERTIFICATIONS SECTION:** (Group relevant ones)
+- AI Foundations: Oracle Cloud Infrastructure AI Certified, Generative AI, LLMs, Responsible AI
+- Machine Learning: ML Ops, Supervised/Unsupervised Learning, Prompt Engineering
+- Development: Git/GitHub, Kubernetes, JavaScript, Blockchain
+- Specialized: Transformers, BERT, Attention Mechanisms, Encoder-Decoder Architecture, Image Generation
+
+**KEY ACHIEVEMENTS:**
+- Predictive Analysis algorithm with 90% accuracy
+- Completed 10+ technical courses with 90%+ scores
+- Small Talk English Speaking Level Test certification
+- Various AI/ML certifications from Google, IBM, Coursera, etc.
+
+**DESIGN REQUIREMENTS:**
+- Theme: Modern, clean, professional with tech/AI aesthetic
+- Color scheme: Dark blue/indigo primary with teal accents (suggest tech/AI vibe)
+- Typography: Clean sans-serif fonts (Poppins/Inter recommended)
+- Layout: Responsive grid with project cards, smooth animations
+- Interactive elements: Hover effects on cards, smooth scrolling navigation
+- Special touch: Include an "Arch User" badge/mention as a fun element
+
+**STRUCTURE:**
+1. Fixed navigation header with: Home, About, Projects, Experience, Education, Skills, Contact
+2. Hero section with name, photo placeholder, and quick intro
+3. Projects section with interactive cards (3 per row on desktop, 1 on mobile)
+4. Skills visualization (progress bars or tag clouds for technical skills)
+5. Timeline layout for education and experience
+6. Certifications as expandable accordion or grid
+7. Contact form with email/phone/LinkedIn
+8. Footer with copyright and social links
+
+**TECHNICAL REQUIREMENTS:**
+- Use semantic HTML5
+- CSS with Flexbox/Grid for responsive design
+- Vanilla JavaScript for interactivity (smooth scroll, project filtering)
+- Mobile-first responsive design
+- Fast loading, optimized images
+- Include a photo placeholder for profile picture
+
+Create the complete website with HTML, CSS, and JavaScript in separate files with proper file structure.
