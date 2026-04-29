@@ -285,6 +285,12 @@ export default function Home() {
               tags={["NLP", "Python", "NLTK"]}
               delay={0.4}
             />
+            <ProjectCard 
+              title="US Market Advisory Copilot"
+              description="USA Market Advisory AI using RAG to answer questions on NYSE stock trends, GDP/macro data, and SEC/FED regulations with citations. Includes PDF/CSV ingestion, FastAPI, Docker deployment, logging, and evaluation."
+              tags={["RAG", "FastAPI", "Docker", "LLM"]}
+              delay={0.5}
+            />
           </div>
         </div>
       </section>
@@ -377,18 +383,18 @@ export default function Home() {
               </p>
               
               <div className="space-y-6">
-                <a href="mailto:aqis20338@gmail.com" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
+                <a href="mailto:aqis20539@gmail.com" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span className="text-lg">aqis20338@gmail.com</span>
+                  <span className="text-lg">aqis20539@gmail.com</span>
                 </a>
                 
-                <a href="tel:03115777062" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
+                <a href="tel:03115777063" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                     <Phone className="w-5 h-5" />
                   </div>
-                  <span className="text-lg">+92 311 5777062</span>
+                  <span className="text-lg">+92 311 5777063</span>
                 </a>
                 
                 <div className="flex items-center gap-4 text-muted-foreground group">
