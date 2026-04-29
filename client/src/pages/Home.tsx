@@ -216,9 +216,6 @@ export default function Home() {
                 icon: <Brain className="w-8 h-8 text-primary" />, 
                 title: "Technical Skills", 
                 skills: [
-                  "Dijkstra's Algorithm (heap-optimized)",
-                  "Graph Theory & Path Reconstruction",
-                  "Orbital Mechanics Simulation",
                   "Neural Networks (PyTorch, Lyapunov)",
                   "Retrieval-Augmented Generation (RAG)",
                   "MLOps & LLMOps",
@@ -255,7 +252,6 @@ export default function Home() {
                 skills: [
                   "Problem-Solving (algorithmic thinking)",
                   "Communication & Technical Writing",
-                  "Leadership & Teaching",
                   "Self-Directed Learning",
                   "Adaptability Across Domains",
                   "Collaboration & Pair Programming",
