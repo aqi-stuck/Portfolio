@@ -203,24 +203,64 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               { 
-                icon: <Brain className="w-8 h-8 text-primary" />, 
-                title: "AI & ML", 
-                skills: ["Neural Networks", "Transformers", "BERT", "Predictive Analytics", "Supervised Learning"] 
+                icon: <Code2 className="w-8 h-8 text-secondary" />, 
+                title: "Programming Skills", 
+                skills: [
+                  "Python",
+                  "Solidity",
+                  "Java (basic)",
+                  "C++ (basic)"
+                ] 
               },
               { 
-                icon: <Code2 className="w-8 h-8 text-secondary" />, 
-                title: "Programming", 
-                skills: ["Python", "C++", "JavaScript", "TypeScript", "SQL"] 
+                icon: <Brain className="w-8 h-8 text-primary" />, 
+                title: "Technical Skills", 
+                skills: [
+                  "Dijkstra's Algorithm (heap-optimized)",
+                  "Graph Theory & Path Reconstruction",
+                  "Orbital Mechanics Simulation",
+                  "Neural Networks (PyTorch, Lyapunov)",
+                  "Retrieval-Augmented Generation (RAG)",
+                  "MLOps & LLMOps",
+                  "Docker & CI/CD (GitHub Actions)",
+                  "Model Monitoring (MLflow, Evidently)",
+                  "Vector DBs (ChromaDB, Qdrant)",
+                  "FastAPI & Streamlit",
+                  "NLP (VADER, negation handling)",
+                  "Smart Contracts (Aave V3, flash loans)",
+                  "DeFi Automation (Gelato, Keepers)"
+                ] 
               },
               { 
                 icon: <Cpu className="w-8 h-8 text-indigo-400" />, 
-                title: "Tools & Cloud", 
-                skills: ["Git & GitHub", "Kubernetes", "Oracle Cloud", "Scikit-learn", "NLTK", "Raylib"] 
+                title: "Software & Tools", 
+                skills: [
+                  "Pygame",
+                  "Docker / Docker Compose",
+                  "GitHub Actions",
+                  "Render, ECS (basic)",
+                  "VS Code / PyCharm",
+                  "Hardhat / Foundry",
+                  "Git / GitHub",
+                  "Streamlit",
+                  "FastAPI",
+                  "Jupyter / Colab",
+                  "Ollama (local LLMs)",
+                  "Raylib (C++ game dev)"
+                ] 
               },
               { 
                 icon: <ChartBar className="w-8 h-8 text-pink-400" />, 
-                title: "Marketing & Soft Skills", 
-                skills: ["Social Media Strategy", "Affiliate Marketing", "Data Analysis", "English (Professional)"] 
+                title: "Soft Skills", 
+                skills: [
+                  "Problem-Solving (algorithmic thinking)",
+                  "Communication & Technical Writing",
+                  "Leadership & Teaching",
+                  "Self-Directed Learning",
+                  "Adaptability Across Domains",
+                  "Collaboration & Pair Programming",
+                  "Attention to Detail & Debugging"
+                ] 
               }
             ].map((category, idx) => (
               <motion.div
