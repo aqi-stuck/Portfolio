@@ -283,38 +283,44 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <ProjectCard 
               title="Collatz-Lyapunov"
-              description="Bridging Discrete Dynamical Systems and Continuous Optimization by training a Neural Network to find a Neural Lyapunov Surface."
+              description="Bridges Discrete Dynamical Systems and Continuous Optimization. By training a Neural Network to find a Neural Lyapunov Surface for the Collatz Conjecture, demonstrates that even 'chaotic' discrete rules can be modeled as a directed descent on a learned energy manifold."
               tags={["PyTorch", "Math Modeling", "Neural Networks"]}
+              links={{ github: "https://github.com/aqi-stuck/Collatz-Lyapunov-Discovering_the_Hidden_Gradient_in_Chaos" }}
               delay={0}
             />
             <ProjectCard 
               title="US Market Advisory Copilot"
-              description="USA Market Advisory AI using RAG to answer questions on NYSE stock trends, GDP/macro data, and SEC/FED regulations with citations. Includes PDF/CSV ingestion, FastAPI, Docker deployment, logging, and evaluation."
-              tags={["RAG", "FastAPI", "Docker", "LLM"]}
+              description="USA Market Advisory AI using RAG to answer questions on live NYSE stock trends, GDP/macro data, and SEC/FED regulations with citations. Includes PDF/CSV ingestion, FastAPI, Docker, Render and Streamlit deployment, logging, and CI/CD evaluation via GitHub Actions."
+              tags={["RAG", "FastAPI", "Docker", "LLM", "Streamlit"]}
+              links={{ github: "https://github.com/aqi-stuck/US-market-advisory-copilot" }}
               delay={0.1}
             />
             <ProjectCard 
-              title="Celestial Pathfinding"
-              description="Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path algorithm. A complex fusion of physics and CS theory."
-              tags={["Python", "Algorithms", "Physics"]}
+              title="Celestial Bodies Pathfinding"
+              description="Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path algorithm. Watch planets orbit a central black hole, satellites circle planets, and discover optimal paths between celestial bodies through dynamic graph connections."
+              tags={["Python", "Dijkstra", "Simulation", "Visualization"]}
+              links={{ github: "https://github.com/aqi-stuck/Black_Hole_structure_like_shortest_path_finding_between_planets_Project" }}
               delay={0.2}
             />
             <ProjectCard 
               title="Predictive GDP Analysis"
-              description="Machine learning system that predicts Pakistan's future GDP using historical data with 90% accuracy using regression models."
-              tags={["Scikit-learn", "Linear Regression", "Data Science"]}
+              description="A Java-based Predictive Analysis System using Simple Linear Regression to forecast Pakistan's GDP for any future year. Features an interactive GUI built with Java Swing — enter a year and instantly receive a predicted GDP value."
+              tags={["Java", "Swing", "Linear Regression", "Data Science"]}
+              links={{ github: "https://github.com/aqi-stuck/project-predictive-analysis-system-using-linear-regression" }}
               delay={0.3}
             />
             <ProjectCard 
               title="Graphical Tic-Tac-Toe"
-              description="Fully interactive game built from scratch using C++ and Raylib, demonstrating low-level graphics programming concepts."
+              description="A fully graphical Tic-Tac-Toe game built with C++ and Raylib, featuring mouse controls, smooth visuals, and real-time gameplay. Transforms the classic console game into an interactive graphical experience with a clean, modern interface."
               tags={["C++", "Raylib", "Game Dev"]}
+              links={{ github: "https://github.com/aqi-stuck/TICTACTOE" }}
               delay={0.4}
             />
             <ProjectCard 
               title="VADER Sentiment Analysis"
-              description="Customized sentiment analyzer using NLTK's VADER with enhanced handling for intensifiers and negations in natural language."
-              tags={["NLP", "Python", "NLTK"]}
+              description="Evolved from TextBlob to VADER (Valence Aware Dictionary and sEntiment Reasoner) with custom intensifier and negation handling. Designed to behave realistically on everyday language — reviews, comments, and short messages."
+              tags={["NLP", "Python", "NLTK", "VADER"]}
+              links={{ github: "https://github.com/aqi-stuck/VADER-based-Sentiment-Analysis-with-intensifiers-and-negators" }}
               delay={0.5}
             />
           </div>

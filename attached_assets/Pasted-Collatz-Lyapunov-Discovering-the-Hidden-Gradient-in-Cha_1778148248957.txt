@@ -1,0 +1,35 @@
+Collatz-Lyapunov-Discovering_the_Hidden_Gradient_in_Chaos
+This project bridges the gap between Discrete Dynamical Systems and Continuous
+Optimization. By training a Neural Network to find a Neural Lyapunov Surface for the Collatz
+Conjecture, I've demonstrated that even "chaotic" discrete rules can be modeled as a directed
+descent on a learned energy manifold.
+https://github.com/aqi-stuck/Collatz-Lyapunov-Discovering_the_Hidden_Gradient_in_Chaos
+US-market-advisory-copilot
+USA Market Advisory AI using RAG to answer questions on Live NYSE stock trends, GDP/macro
+data, and SEC/FzED regulations with citations. Includes PDF/CSV ingestion (clean, chunk,
+embed, index), FastAPI API, Docker deployment ,Render and Streamlit deployment, logging, and
+evaluation through github actions
+https://github.com/aqi-stuck/US-market-advisory-copilot
+Celestial Bodies Pathfinding Visualization
+Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path
+algorithm. Watch planets orbit a central black hole, satellites circle planets, and discover optimal
+paths between celestial bodies through dynamic graph connections.
+https://github.com/aqi-stuck/Black_Hole_structure_like_shortest_path_finding_between_planet
+s_Project
+VADER-based-Sentiment-Analysis-with-intensifiers-and-negators
+The project started with a simple approach using TextBlob for polarity scoring. Over time, the
+design evolved to use VADER (Valence Aware Dictionary and sEntiment Reasoner) from NLTK
+combined with custom intensifier and negation handling. The goal of this evolution was to make
+the analyzer behave more realistically on everyday, real‑world language such as reviews,
+comments, and short messages.
+https://github.com/aqi-stuck/VADER-based-Sentiment-Analysis-with-intensifiers-and-negators
+project-predictive-analysis-system-using-linear-regression
+This project is a Java-based Predictive Analysis System that uses a Simple Linear Regression
+model to forecast Pakistan’s GDP for any future year. It includes an interactive GUI built with
+Java Swing, allowing users to enter a year and instantly receive a predicted GDP value.
+https://github.com/aqi-stuck/project-predictive-analysis-system-using-linear-regression
+Tic-Tac-Toe with Raylib - Complete C++ Game
+A fully graphical Tic-Tac-Toe game built with C++ and Raylib, featuring mouse controls, smooth
+visuals, and real-time gameplay. This project transforms the classic console game into an
+interactive graphical experience with a clean, modern interface.
+https://github.com/aqi-stuck/TICTACTOE
