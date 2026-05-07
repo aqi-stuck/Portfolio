@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import logoImg from "@assets/image_1778139245625.png";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -45,8 +46,8 @@ export function Navigation() {
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
               className="flex items-center gap-2 font-display font-bold text-xl sm:text-2xl text-foreground group"
             >
-              <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors w-10 h-10 flex items-center justify-center">
-                <span className="text-primary font-display font-bold text-xl">A</span>
+              <div className="rounded-lg overflow-hidden w-10 h-10 flex items-center justify-center">
+                <img src={logoImg} alt="Logo" className="w-full h-full object-contain" />
               </div>
               <span className="hidden sm:block">Syed<span className="text-primary">Aqdas</span></span>
             </a>

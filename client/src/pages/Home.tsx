@@ -178,7 +178,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Location</h4>
-                  <p className="text-sm text-muted-foreground">Chakwal District, Pakistan</p>
+                  <p className="text-sm text-muted-foreground">Islamabad, Pakistan & Remote</p>
                 </div>
               </div>
             </motion.div>
@@ -427,7 +427,7 @@ export default function Home() {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                     <MapPin className="w-5 h-5" />
                   </div>
-                  <span className="text-lg">Chakwal District, Pakistan</span>
+                  <span className="text-lg">Islamabad, Pakistan & Remote</span>
                 </div>
 
                 <a 
