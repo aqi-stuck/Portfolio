@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "cqn-o0kUigligT3B1mCHW"
+uri = "file://client/public/favicon-source.png"
+type = "image"
+title = "generated_image"
