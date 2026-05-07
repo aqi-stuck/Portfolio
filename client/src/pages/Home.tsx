@@ -72,9 +72,9 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl sm:text-2xl md:text-3xl text-muted-foreground font-light mb-8"
+              className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-light mb-8 leading-relaxed"
             >
-              AI Student | <span className="text-foreground font-medium">Future AI Solutions Engineer</span>
+              AI Undergrad&nbsp;|&nbsp;MLOps&nbsp;|&nbsp;AI Infrastructure + Blockchain Integration&nbsp;|&nbsp;LLMOps&nbsp;|&nbsp;<span className="text-foreground font-medium">Automated DeFi Bots</span>&nbsp;|&nbsp;Machine Learning
             </motion.h2>
 
             <motion.p 
@@ -161,15 +161,14 @@ export default function Home() {
               <h3 className="text-2xl font-display font-bold mb-4">
                 Second Year AI Undergrad at <span className="text-primary">PAF-IAST</span>
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                I am actively pursuing a BS in Artificial Intelligence (expected graduation 2028). 
-                My journey is defined by a self-driven path toward becoming an AI Solutions Engineer.
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                AI undergraduate (2nd year) passionate about building AI-based solutions using Retrieval-Augmented Generation (RAG), MLOps, LLMOps, graph pathfinding, neural networks, NLP, and orbital mechanics simulations. Skilled in production-ready LLM pipelines, Docker containerization, CI/CD for AI, model monitoring, Solidity DeFi bots, real-time visualizations, and automation tools.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Proficient in Python and Solidity, and familiar with Java and C++. Experienced with MLflow, GitHub Actions, vector databases (Qdrant), FastAPI, and smart contract development. My focus is MLOps/LLMOps + systems integration — RAG pipelines, on-chain automation, and model deployment — while remaining open to exploring other avenues for growth.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Beyond code, I bring real experience in product and social media marketing. 
-                I've helped grow digital engagement and shape go-to-market strategies for early-stage 
-                project development. This unique blend of technical skills and market awareness gives 
-                me an edge in building products that don't just work—they succeed.
+                Alongside technical expertise, I bring strong communication, leadership, and problem-solving skills, refined through teaching and leading teams. Beyond academics, I enjoy reading, traveling, and connecting with people from diverse backgrounds.
               </p>
               
               <div className="flex items-center gap-4 mb-8">
