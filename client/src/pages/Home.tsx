@@ -170,13 +170,6 @@ export default function Home() {
                 Alongside technical expertise, I bring strong communication, leadership, and problem-solving skills, refined through teaching and leading teams. Beyond academics, I enjoy reading, traveling, and connecting with people from diverse backgrounds.
               </p>
               
-              <div className="flex items-center gap-4 mb-8">
-                <div className="flex items-center gap-2 text-sm font-medium text-foreground bg-secondary/10 px-3 py-1.5 rounded-md border border-secondary/20">
-                  <Terminal className="w-4 h-4 text-secondary" />
-                  <span>I use Arch by the way</span>
-                </div>
-              </div>
-
               <div className="grid grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Education</h4>
@@ -230,7 +223,6 @@ export default function Home() {
                 icon: <Cpu className="w-8 h-8 text-indigo-400" />, 
                 title: "Software & Tools", 
                 skills: [
-                  "Pygame",
                   "Docker / Docker Compose",
                   "GitHub Actions",
                   "Render, ECS (basic)",
@@ -290,39 +282,39 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <ProjectCard 
-              title="Celestial Pathfinding"
-              description="Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path algorithm. A complex fusion of physics and CS theory."
-              tags={["Python", "Algorithms", "Physics"]}
-              delay={0}
-            />
-            <ProjectCard 
               title="Collatz-Lyapunov"
               description="Bridging Discrete Dynamical Systems and Continuous Optimization by training a Neural Network to find a Neural Lyapunov Surface."
               tags={["PyTorch", "Math Modeling", "Neural Networks"]}
-              delay={0.1}
-            />
-            <ProjectCard 
-              title="Predictive GDP Analysis"
-              description="Machine learning system that predicts Pakistan's future GDP using historical data with 90% accuracy using regression models."
-              tags={["Scikit-learn", "Linear Regression", "Data Science"]}
-              delay={0.2}
-            />
-            <ProjectCard 
-              title="Graphical Tic-Tac-Toe"
-              description="Fully interactive game built from scratch using C++ and Raylib, demonstrating low-level graphics programming concepts."
-              tags={["C++", "Raylib", "Game Dev"]}
-              delay={0.3}
-            />
-            <ProjectCard 
-              title="VADER Sentiment Analysis"
-              description="Customized sentiment analyzer using NLTK's VADER with enhanced handling for intensifiers and negations in natural language."
-              tags={["NLP", "Python", "NLTK"]}
-              delay={0.4}
+              delay={0}
             />
             <ProjectCard 
               title="US Market Advisory Copilot"
               description="USA Market Advisory AI using RAG to answer questions on NYSE stock trends, GDP/macro data, and SEC/FED regulations with citations. Includes PDF/CSV ingestion, FastAPI, Docker deployment, logging, and evaluation."
               tags={["RAG", "FastAPI", "Docker", "LLM"]}
+              delay={0.1}
+            />
+            <ProjectCard 
+              title="Celestial Pathfinding"
+              description="Interactive visualization combining orbital mechanics simulation with Dijkstra's shortest path algorithm. A complex fusion of physics and CS theory."
+              tags={["Python", "Algorithms", "Physics"]}
+              delay={0.2}
+            />
+            <ProjectCard 
+              title="Predictive GDP Analysis"
+              description="Machine learning system that predicts Pakistan's future GDP using historical data with 90% accuracy using regression models."
+              tags={["Scikit-learn", "Linear Regression", "Data Science"]}
+              delay={0.3}
+            />
+            <ProjectCard 
+              title="Graphical Tic-Tac-Toe"
+              description="Fully interactive game built from scratch using C++ and Raylib, demonstrating low-level graphics programming concepts."
+              tags={["C++", "Raylib", "Game Dev"]}
+              delay={0.4}
+            />
+            <ProjectCard 
+              title="VADER Sentiment Analysis"
+              description="Customized sentiment analyzer using NLTK's VADER with enhanced handling for intensifiers and negations in natural language."
+              tags={["NLP", "Python", "NLTK"]}
               delay={0.5}
             />
           </div>
