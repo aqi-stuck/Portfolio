@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, MapPin, Phone, Linkedin, Download, Terminal, Cpu, Brain, ChartBar, Globe, Database, Code2 } from "lucide-react";
+import profilePic from "@assets/WhatsApp_Image_2025-01-14_at_10.59.53_AM_1778138847559.jpeg";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -139,13 +140,11 @@ export default function Home() {
               className="relative"
             >
               <div className="aspect-square rounded-2xl overflow-hidden bg-muted relative z-10">
-                 {/* 
-                    Using a placeholder gradient since no user image was provided. 
-                    In a real app, this would be: <img src={profileImage} /> 
-                 */}
-                 <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                    <Terminal className="w-24 h-24 text-primary/40" />
-                 </div>
+                 <img 
+                   src={profilePic} 
+                   alt="Syed Aqdas Munir" 
+                   className="w-full h-full object-cover object-top"
+                 />
               </div>
               {/* Decorative elements */}
               <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-primary rounded-tl-3xl z-0" />
