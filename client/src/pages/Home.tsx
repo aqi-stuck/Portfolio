@@ -437,7 +437,7 @@ export default function Home() {
                 </div>
 
                 <a 
-                  href="https://www.linkedin.com/in/syed-aqdas-munir-7291803127" 
+                  href="https://www.linkedin.com/in/syed-aqdas-munir-729196312/?locale=details" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group"
