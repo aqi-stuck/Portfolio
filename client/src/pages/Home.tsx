@@ -7,7 +7,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertContactMessageSchema, type InsertContactMessage } from "@shared/schema";
-import { useContact } from "@/hooks/use-contact";
 import { Navigation } from "@/components/Navigation";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ProjectCard } from "@/components/ProjectCard";
@@ -15,8 +14,6 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
-  const contactMutation = useContact();
-
   const form = useForm<InsertContactMessage>({
     resolver: zodResolver(insertContactMessageSchema),
     defaultValues: {
@@ -27,9 +24,12 @@ export default function Home() {
   });
 
   const onSubmit = (data: InsertContactMessage) => {
-    contactMutation.mutate(data, {
-      onSuccess: () => form.reset(),
-    });
+    const subject = encodeURIComponent(`Portfolio Contact from ${data.name}`);
+    const body = encodeURIComponent(
+      `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
+    );
+    window.location.href = `mailto:aqis20539@gmail.com?subject=${subject}&body=${body}`;
+    form.reset();
   };
 
   const fadeInUp = {
@@ -500,9 +500,8 @@ export default function Home() {
                   <Button 
                     type="submit" 
                     className="w-full h-12 text-lg bg-primary hover:bg-primary/90 rounded-xl"
-                    disabled={contactMutation.isPending}
                   >
-                    {contactMutation.isPending ? "Sending..." : "Send Message"}
+                    Send Message
                   </Button>
                 </form>
               </Form>
