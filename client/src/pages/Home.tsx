@@ -323,6 +323,20 @@ export default function Home() {
               links={{ github: "https://github.com/aqi-stuck/VADER-based-Sentiment-Analysis-with-intensifiers-and-negators" }}
               delay={0.5}
             />
+            <ProjectCard 
+              title="Mini OS Lab"
+              description="A container-native operating system laboratory built with Docker, Docker Compose, Python, Bash, and Linux. A custom Python controller and CLI manage core services and isolated user environments with container lifecycle management, persistent volumes, shared storage, centralized logging, bridge networking, resource limits, automated startup and shutdown scripts, and GitHub Actions CI validation."
+              tags={["Python", "Docker", "Docker Compose", "Bash", "Linux", "GitHub Actions"]}
+              links={{ github: "https://github.com/aqi-stuck/mini-os-lab" }}
+              delay={0.6}
+            />
+            <ProjectCard 
+              title="Aave Liquidation Lab"
+              description="A Polygon DeFi liquidation and arbitrage laboratory using Python, Web3.py, Solidity, and Hardhat. Integrates with Aave V3 to monitor lending positions, verify on-chain borrower health factors, identify liquidation opportunities, estimate profitability, and support flash-loan-backed execution workflows with oracle monitoring, bot supervisors, deployment scripts, mock contracts, and OpenZeppelin testing."
+              tags={["Python", "Web3.py", "Solidity", "Aave V3", "Hardhat", "Polygon"]}
+              links={{ github: "https://github.com/aqi-stuck/aave-liquidation-lab" }}
+              delay={0.7}
+            />
           </div>
         </div>
       </section>
