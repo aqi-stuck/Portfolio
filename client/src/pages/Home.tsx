@@ -313,7 +313,7 @@ export default function Home() {
               title="Mini OS Lab"
               description="A container-native operating system laboratory built with Docker, Docker Compose, Python, Bash, and Linux. A custom Python controller and CLI manage core services and isolated user environments with container lifecycle management, persistent volumes, shared storage, centralized logging, bridge networking, resource limits, automated startup and shutdown scripts, and GitHub Actions CI validation."
               tags={["Python", "Docker", "Docker Compose", "Bash", "Linux", "GitHub Actions"]}
-              links={{ github: "https://github.com/aqi-stuck/mini-os-lab" }}
+              links={{ github: "https://github.com/aqi-stuck/mini-os" }}
               delay={0.6}
             />
             <ProjectCard 
