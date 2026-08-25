@@ -242,6 +242,7 @@ export default function Home() {
                 skills: [
                   "Problem-Solving (algorithmic thinking)",
                   "Communication & Technical Writing",
+                  "Proficient in English",
                   "Self-Directed Learning",
                   "Adaptability Across Domains",
                   "Collaboration & Pair Programming",
