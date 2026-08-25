@@ -303,24 +303,10 @@ export default function Home() {
               delay={0.2}
             />
             <ProjectCard 
-              title="Predictive GDP Analysis"
-              description="A Java-based Predictive Analysis System using Simple Linear Regression to forecast Pakistan's GDP for any future year. Features an interactive GUI built with Java Swing — enter a year and instantly receive a predicted GDP value."
-              tags={["Java", "Swing", "Linear Regression", "Data Science"]}
-              links={{ github: "https://github.com/aqi-stuck/project-predictive-analysis-system-using-linear-regression" }}
-              delay={0.3}
-            />
-            <ProjectCard 
-              title="Graphical Tic-Tac-Toe"
-              description="A fully graphical Tic-Tac-Toe game built with C++ and Raylib, featuring mouse controls, smooth visuals, and real-time gameplay. Transforms the classic console game into an interactive graphical experience with a clean, modern interface."
-              tags={["C++", "Raylib", "Game Dev"]}
-              links={{ github: "https://github.com/aqi-stuck/TICTACTOE" }}
-              delay={0.4}
-            />
-            <ProjectCard 
-              title="VADER Sentiment Analysis"
-              description="Evolved from TextBlob to VADER (Valence Aware Dictionary and sEntiment Reasoner) with custom intensifier and negation handling. Designed to behave realistically on everyday language — reviews, comments, and short messages."
-              tags={["NLP", "Python", "NLTK", "VADER"]}
-              links={{ github: "https://github.com/aqi-stuck/VADER-based-Sentiment-Analysis-with-intensifiers-and-negators" }}
+              title="Aave Liquidation Lab"
+              description="A Polygon DeFi liquidation and arbitrage laboratory using Python, Web3.py, Solidity, and Hardhat. Integrates with Aave V3 to monitor lending positions, verify on-chain borrower health factors, identify liquidation opportunities, estimate profitability, and support flash-loan-backed execution workflows with oracle monitoring, bot supervisors, deployment scripts, mock contracts, and OpenZeppelin testing."
+              tags={["Python", "Web3.py", "Solidity", "Aave V3", "Hardhat", "Polygon"]}
+              links={{ github: "https://github.com/aqi-stuck/aave-liquidation-lab" }}
               delay={0.5}
             />
             <ProjectCard 
@@ -331,11 +317,25 @@ export default function Home() {
               delay={0.6}
             />
             <ProjectCard 
-              title="Aave Liquidation Lab"
-              description="A Polygon DeFi liquidation and arbitrage laboratory using Python, Web3.py, Solidity, and Hardhat. Integrates with Aave V3 to monitor lending positions, verify on-chain borrower health factors, identify liquidation opportunities, estimate profitability, and support flash-loan-backed execution workflows with oracle monitoring, bot supervisors, deployment scripts, mock contracts, and OpenZeppelin testing."
-              tags={["Python", "Web3.py", "Solidity", "Aave V3", "Hardhat", "Polygon"]}
-              links={{ github: "https://github.com/aqi-stuck/aave-liquidation-lab" }}
+              title="VADER Sentiment Analysis"
+              description="Evolved from TextBlob to VADER (Valence Aware Dictionary and sEntiment Reasoner) with custom intensifier and negation handling. Designed to behave realistically on everyday language — reviews, comments, and short messages."
+              tags={["NLP", "Python", "NLTK", "VADER"]}
+              links={{ github: "https://github.com/aqi-stuck/VADER-based-Sentiment-Analysis-with-intensifiers-and-negators" }}
               delay={0.7}
+            />
+            <ProjectCard 
+              title="Predictive GDP Analysis"
+              description="A Java-based Predictive Analysis System using Simple Linear Regression to forecast Pakistan's GDP for any future year. Features an interactive GUI built with Java Swing — enter a year and instantly receive a predicted GDP value."
+              tags={["Java", "Swing", "Linear Regression", "Data Science"]}
+              links={{ github: "https://github.com/aqi-stuck/project-predictive-analysis-system-using-linear-regression" }}
+              delay={0.8}
+            />
+            <ProjectCard 
+              title="Graphical Tic-Tac-Toe"
+              description="A fully graphical Tic-Tac-Toe game built with C++ and Raylib, featuring mouse controls, smooth visuals, and real-time gameplay. Transforms the classic console game into an interactive graphical experience with a clean, modern interface."
+              tags={["C++", "Raylib", "Game Dev"]}
+              links={{ github: "https://github.com/aqi-stuck/TICTACTOE" }}
+              delay={0.9}
             />
           </div>
         </div>
