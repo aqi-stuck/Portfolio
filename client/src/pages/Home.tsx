@@ -338,6 +338,13 @@ export default function Home() {
               links={{ github: "https://github.com/aqi-stuck/TICTACTOE" }}
               delay={0.9}
             />
+            <ProjectCard
+              title="A-Parts Distributor Search"
+              description="Built with a two-developer team, this ML-assisted parts-distributor search system turns messy warehouse descriptions into ranked catalog SKUs with matching evidence and confidence scores. It combines query normalization, lexical and fuzzy retrieval, and attribute-aware reranking, then routes uncertain matches for human review and returns a safe not-found result when no reliable catalog match exists."
+              tags={["Machine Learning", "Python", "BM25", "TF-IDF", "RapidFuzz", "Search"]}
+              links={{ github: "https://github.com/aqi-stuck/A-parts-distributor" }}
+              delay={1.0}
+            />
           </div>
         </div>
       </section>
